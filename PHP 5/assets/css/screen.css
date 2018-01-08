@@ -1,0 +1,49 @@
+@import url("reset.css");
+
+body {
+    background: #fff;
+}
+header{
+    background-color: aqua;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 125px;
+}
+
+ul li a:hover,
+ul li.current a {
+    color: rgb(79, 90, 189);
+}
+
+h1{
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
